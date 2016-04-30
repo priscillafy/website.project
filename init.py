@@ -1,0 +1,8 @@
+create_directory("public")
+create_directory("public/js")
+create_directory("public/html")
+create_directory("public/css")
+create_directory("public/assets/")
+copy_asset("package.json", "")
+copy_asset("server.js", "")
+run_shell("npm install --save express")
